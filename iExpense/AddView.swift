@@ -43,6 +43,7 @@ struct AddView: View {
                 }
             }
             .navigationTitle("Add new expense")
+            .navigationBarBackButtonHidden()
         }
 
     }

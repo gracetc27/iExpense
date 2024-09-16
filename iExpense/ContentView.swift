@@ -36,9 +36,7 @@ struct ContentView: View {
             }
             .navigationTitle("iExpense")
             .toolbar {
-                Button("Add expense", systemImage: "plus") {
-                    showingAddView = true
-                }
+                NavigationLink("Add expense", destination: AddView(expenses: expenses))
             }
         }
     }
