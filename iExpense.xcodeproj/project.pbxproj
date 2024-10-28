@@ -15,7 +15,6 @@
 		A39A3BFB2C74A86A0017AAC0 /* iExpenseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A39A3BFA2C74A86A0017AAC0 /* iExpenseUITests.swift */; };
 		A39A3BFD2C74A86A0017AAC0 /* iExpenseUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A39A3BFC2C74A86A0017AAC0 /* iExpenseUITestsLaunchTests.swift */; };
 		A39A3C0A2C74AAC10017AAC0 /* ExpenseItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = A39A3C092C74AAAB0017AAC0 /* ExpenseItem.swift */; };
-		A39A3C0C2C74AB110017AAC0 /* Expenses.swift in Sources */ = {isa = PBXBuildFile; fileRef = A39A3C0B2C74AB0B0017AAC0 /* Expenses.swift */; };
 		A39A3C0E2C74B4150017AAC0 /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A39A3C0D2C74B4150017AAC0 /* AddView.swift */; };
 		A39A3C102C74C5C70017AAC0 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A39A3C0F2C74C5C70017AAC0 /* ListView.swift */; };
 /* End PBXBuildFile section */
@@ -49,7 +48,6 @@
 		A39A3BFA2C74A86A0017AAC0 /* iExpenseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iExpenseUITests.swift; sourceTree = "<group>"; };
 		A39A3BFC2C74A86A0017AAC0 /* iExpenseUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iExpenseUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		A39A3C092C74AAAB0017AAC0 /* ExpenseItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseItem.swift; sourceTree = "<group>"; };
-		A39A3C0B2C74AB0B0017AAC0 /* Expenses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Expenses.swift; sourceTree = "<group>"; };
 		A39A3C0D2C74B4150017AAC0 /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
 		A39A3C0F2C74C5C70017AAC0 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -106,7 +104,6 @@
 				A39A3BE12C74A8680017AAC0 /* ContentView.swift */,
 				A39A3C0F2C74C5C70017AAC0 /* ListView.swift */,
 				A39A3C092C74AAAB0017AAC0 /* ExpenseItem.swift */,
-				A39A3C0B2C74AB0B0017AAC0 /* Expenses.swift */,
 				A39A3C0D2C74B4150017AAC0 /* AddView.swift */,
 				A39A3BE32C74A86A0017AAC0 /* Assets.xcassets */,
 				A39A3BE52C74A86A0017AAC0 /* Preview Content */,
@@ -269,7 +266,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A39A3C0C2C74AB110017AAC0 /* Expenses.swift in Sources */,
 				A39A3BE22C74A8680017AAC0 /* ContentView.swift in Sources */,
 				A39A3C0E2C74B4150017AAC0 /* AddView.swift in Sources */,
 				A39A3C0A2C74AAC10017AAC0 /* ExpenseItem.swift in Sources */,
