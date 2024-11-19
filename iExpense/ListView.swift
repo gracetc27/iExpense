@@ -31,6 +31,9 @@ struct ListView: View {
                             .foregroundStyle(.red)
                     }
                 }
+                .accessibilityElement()
+                .accessibilityLabel("\(item.name), \(item.amount)")
+                .accessibilityHint(item.rawType)
             }
             .onDelete(perform: removeItems)
         }
